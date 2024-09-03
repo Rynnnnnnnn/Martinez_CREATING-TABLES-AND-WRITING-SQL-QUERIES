@@ -135,32 +135,34 @@ VALUES
 (50, 'tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi', 405362391, '2023-10-15 02:11:57');
 
 
-INSERT INTO Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) VALUES 
-(1, 'odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at', 20, true, false, 20, '1984-04-24 23:00:29'),
-(2, 'diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere', 5, true, false, 15, '2012-01-11 20:59:46'),
-(3, 'imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue', 23, false, true, 21, '1989-02-02 13:01:26'),
-(4, 'quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam', 17, true, true, 19, '2022-04-18 19:09:01'),
-(5, 'tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat', 16, true, true, 24, '1988-09-11 04:50:09'),
-(6, 'sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique', 23, true, true, 17, '2021-05-04 08:58:38'),
-(7, 'ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi', 1, true, true, 21, '2013-10-05 03:07:00'),
-(8, 'sit amet lobortis sapien sapien non mi integer ac neque', 5, false, true, 2, '1989-02-14 04:14:13'),
-(9, 'vulputate elementum nullam varius nulla facilisi cras non velit nec nisi', 19, false, true, 23, '2012-08-02 19:11:50'),
-(10, 'purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat', 6, false, false, 15, '2015-03-20 22:35:04'),
-(11, 'ut ultrices vel augue vestibulum ante ipsum primis in faucibus', 3, false, false, 22, '2015-05-15 04:51:50'),
-(12, 'leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero', 17, true, true, 23, '2024-11-03 23:40:01'),
-(13, 'pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing', 11, false, true, 13, '1980-05-25 15:06:02'),
-(14, 'risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis', 9, true, false, 22, '1987-08-09 17:21:10'),
-(15, 'in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum', 3, false, false, 20, '2023-01-26 09:38:04'),
-(16, 'aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac', 18, false, false, 5, '2007-12-11 16:19:37'),
-(17, 'montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis', 12, true, false, 13, '2002-10-21 01:42:34'),
-(18, 'vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis', 22, false, true, 18, '1991-10-22 18:19:30'),
-(19, 'felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar', 14, false, false, 21, '1997-05-06 04:59:54'),
-(20, 'pretium nisl ut volutpat sapien arcu sed augue aliquam erat', 5, false, true, 22, '2021-08-26 22:41:56'),
-(21, 'curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat', 10, true, true, 3, '2023-12-03 12:35:19'),
-(22, 'aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies', 15, false, true, 5, '1986-11-04 03:53:25'),
-(23, 'ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis', 1, false, false, 6, '1994-06-16 23:03:38'),
-(24, 'at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero', 15, false, true, 21, '1992-05-10 12:14:23'),
-(25, 'sollicitudin ut suscipit a feugiat vehicula vehicula at eros vestibulum cursus vestibulum suspendisse potenti', 6, true, false, 12, '1998-07-24 11:12:22');
+-- Assuming PostID is a primary key and needs to be unique:
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) 
+values 
+(1, 'justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna', 1, true, false, 16, '2000-10-20 03:20:37'),
+(2, 'sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus', 15, false, false, 17, '2005-03-08 14:51:13'),
+(3, 'lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat', 20, false, false, 11, '1978-03-21 08:07:11'),
+(4, 'justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo', 16, false, false, 10, '2024-09-24 02:02:59'),
+(5, 'proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue', 10, true, true, 25, '2000-04-20 04:50:16'),
+(6, 'elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in', 22, true, false, 4, '2024-02-10 01:15:06'),
+(7, 'suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean', 21, true, false, 20, '1986-04-19 13:37:49'),
+(8, 'lectus in est risus auctor sed tristique in tempus sit amet sem', 5, false, true, 23, '2015-03-16 03:55:55'),
+(9, 'eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero', 5, true, true, 1, '1984-06-14 00:01:09'),
+(10, 'placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt', 9, true, true, 25, '2010-06-30 23:15:40'),
+(11, 'ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo', 13, true, true, 9, '2012-10-17 00:50:58'),
+(12, 'risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie', 13, true, false, 13, '1991-12-14 04:35:57'),
+(13, 'in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate', 7, true, false, 15, '2018-10-16 07:33:31'),
+(14, 'ligula sit amet eleifend pede libero quis orci nullam molestie nibh in', 21, true, true, 1, '2013-11-07 13:33:16'),
+(15, 'pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet', 17, false, false, 24, '2002-08-17 16:36:19'),
+(16, 'in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum', 18, true, false, 2, '1974-03-24 16:40:12'),
+(17, 'dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie', 6, true, false, 2, '1995-07-10 18:40:15'),
+(18, 'ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae', 8, true, true, 11, '1992-07-29 13:31:17'),
+(19, 'condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse', 17, true, false, 14, '2021-04-26 03:20:21'),
+(20, 'nibh fusce lacus purus aliquet at feugiat non pretium quis lectus', 18, true, true, 21, '2011-01-23 05:30:28'),
+(21, 'in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat', 16, false, false, 23, '2022-12-29 00:56:50'),
+(22, 'nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi', 3, false, true, 3, '2003-09-02 18:54:21'),
+(23, 'iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat', 1, true, true, 1, '1985-02-16 03:06:37'),
+(24, 'lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in', 10, false, false, 13, '2021-11-13 07:55:57'),
+(25, 'massa tempor convallis nulla neque libero convallis eget eleifend luctus', 1, false, true, 9, '2000-01-26 12:46:04');
 
 
 INSERT INTO GroupMembershipRequests (GroupMembershipRequestsID, GroupID, GroupMemberUserID, IsGroupMembershipAccepted, DateAccepted) 
