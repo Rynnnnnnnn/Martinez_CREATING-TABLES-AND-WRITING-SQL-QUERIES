@@ -52,7 +52,8 @@ VALUES
 (50, 'dtorrecillob13', 'Darn', 'Torrecillo', '1961-12-04', 'wF6&n{9PmJ', '2024-03-29T06:15:30Z');
 
 
-INSERT INTO Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) VALUES 
+INSERT INTO Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) 
+VALUES 
 (1, 5, 14, false, '2004-09-22 21:47:31'),
 (2, 3, 11, true, '2001-07-20 01:38:17'),
 (3, 12, 6, false, '2007-07-04 07:25:35'),
@@ -134,10 +135,8 @@ VALUES
 (49, 'aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras', 331156742, '2010-01-14 19:23:29'),
 (50, 'tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi', 405362391, '2023-10-15 02:11:57');
 
-
--- Assuming PostID is a primary key and needs to be unique:
-insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) 
-values 
+INSERT INTO Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) 
+VALUES
 (1, 'justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna', 1, true, false, 16, '2000-10-20 03:20:37'),
 (2, 'sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus', 15, false, false, 17, '2005-03-08 14:51:13'),
 (3, 'lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat', 20, false, false, 11, '1978-03-21 08:07:11'),
