@@ -25,6 +25,32 @@ VALUES
 (23, 'crosenbloomm', 'Crawford', 'Rosenbloom', '1935-08-30', 'hV0=l)l0Q', '2024-04-27T15:58:17Z'),
 (24, 'tcoppockn', 'Trumann', 'Coppock', '1942-07-07', 'bU7\-eR~0`3+~J>1', '2024-07-15T02:06:03Z'),
 (25, 'ahanniganeo', 'Ailis', 'Hannigane', '1978-10-10', 'gV2~t|\\@e@XA', '2024-07-05T02:03:39Z');
+(26, 'lormrodp', 'Lonny', 'Ormrod', '1949-01-17', 'eF9>l&Kw[', '2024-02-05T10:23:12Z'),
+(27, 'fdumbletonq', 'Freida', 'Dumbleton', '1980-05-11', 'vM2{y$PEn|R4', '2024-06-25T12:11:43Z'),
+(28, 'mgammonr', 'Marty', 'Gammon', '1992-03-24', 'cX4*9yWsA', '2024-03-07T20:43:01Z'),
+(29, 'fkertonas', 'Fay', 'Kertona', '1977-09-29', 'qB5&1~}eEz', '2024-08-04T11:19:27Z'),
+(30, 'hmelmotht', 'Harlan', 'Melmoth', '1963-11-14', 'zH8~lP[o@a|', '2023-12-08T09:12:18Z'),
+(31, 'tretelinu', 'Terese', 'Retelin', '1990-07-21', 'rP3&d<9oF!', '2023-10-17T04:31:56Z'),
+(32, 'ctummellv', 'Cort', 'Tummell', '1951-06-30', 'kQ7#8+Vw|L', '2024-05-01T07:13:45Z'),
+(33, 'ehonannw', 'Erina', 'Honann', '1971-08-11', 'hM6\*T{6Lq+', '2024-01-20T18:28:39Z'),
+(34, 'sbrisbornx', 'Shelley', 'Brisborn', '1965-03-15', 'nF2%J]3oWm', '2023-09-21T14:45:13Z'),
+(35, 'rvinstony', 'Reade', 'Vinston', '1933-11-18', 'wC5\{7@PwCk', '2024-02-18T16:41:29Z'),
+(36, 'nmacgookinz', 'Neville', 'Macgookin', '2000-12-12', 'sK7&8yTf@', '2024-06-11T07:02:19Z'),
+(37, 'ygleadhalla0', 'Yancey', 'Gleadhall', '1984-02-25', 'tL0!o{P[2|V6', '2023-11-22T19:55:43Z'),
+(38, 'kfluryb1', 'Kathryn', 'Flury', '1958-05-05', 'yX2>i&7mU', '2023-10-02T08:36:24Z'),
+(39, 'ahumbell2', 'Aldon', 'Humbell', '1940-04-19', 'rM9@3k7aP!', '2024-05-19T13:50:05Z'),
+(40, 'blinckb3', 'Bertine', 'Linck', '1997-01-31', 'vD5^q,2B{&', '2024-07-23T12:41:18Z'),
+(41, 'mwalderb4', 'Moira', 'Walder', '1934-09-22', 'pH0#7|TkRv', '2023-11-07T22:18:34Z'),
+(42, 'afinklemanb5', 'Ashly', 'Finkleman', '1967-02-07', 'zL6%d&3Es', '2024-08-02T07:05:15Z'),
+(43, 'lclifftb6', 'Lyle', 'Clifft', '1954-06-17', 'jT8#k^N(3L', '2024-01-26T11:21:33Z'),
+(44, 'hcantwellb7', 'Hillary', 'Cantwell', '1982-10-06', 'sQ5$y}3Dp', '2023-09-25T10:32:49Z'),
+(45, 'dknaptonb8', 'Davy', 'Knapton', '1999-04-29', 'lM1@o(8BfZ', '2023-12-05T14:03:25Z'),
+(46, 'rlefrebvreu9', 'Randy', 'Lefrebvre', '2005-08-18', 'kQ3$!z4Vx', '2023-11-13T11:50:01Z'),
+(47, 'afreeburnb10', 'Arden', 'Freeburn', '1955-09-12', 'vW4%f.5Td', '2024-06-28T09:12:58Z'),
+(48, 'pbamforthb11', 'Perry', 'Bamforth', '1948-07-24', 'cS7#u=1Mk', '2024-02-24T08:17:44Z'),
+(49, 'rclendinningb12', 'Raul', 'Clendinning', '1973-11-08', 'yE9@x6(4Lu', '2024-04-11T03:50:19Z'),
+(50, 'dtorrecillob13', 'Darn', 'Torrecillo', '1961-12-04', 'wF6&n{9PmJ', '2024-03-29T06:15:30Z');
+
 
 INSERT INTO Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) 
 VALUES 
@@ -53,6 +79,32 @@ VALUES
 (23, 404630, 300494, 0, '2009-08-08 19:53:08'),
 (24, 449103, 360997, 1, '2009-09-27 22:55:19'),
 (25, 252379, 230261, 0, '2014-11-13 14:44:03');
+(26, 543028, 817465, 1, '2016-04-18 07:21:15'),
+(27, 620830, 431909, 0, '2019-11-01 05:19:48'),
+(28, 258194, 604773, 1, '2011-06-06 14:37:55'),
+(29, 121317, 368134, 0, '2023-01-23 09:03:27'),
+(30, 489023, 536742, 1, '2008-07-16 18:42:56'),
+(31, 623801, 811276, 0, '2014-03-09 20:30:11'),
+(32, 110248, 745381, 1, '2022-02-12 11:15:39'),
+(33, 447292, 938617, 0, '2020-07-28 23:12:19'),
+(34, 823479, 561038, 1, '2018-12-17 16:54:07'),
+(35, 694228, 209764, 1, '2007-10-23 10:59:34'),
+(36, 378594, 808129, 0, '2022-03-17 22:20:48'),
+(37, 561733, 749526, 1, '2013-02-14 07:12:24'),
+(38, 978241, 463591, 0, '2010-08-01 21:25:32'),
+(39, 307582, 614902, 1, '2017-05-29 04:28:19'),
+(40, 586184, 103482, 0, '2001-09-12 06:19:42'),
+(41, 142375, 218562, 1, '2015-10-07 09:46:05'),
+(42, 358091, 375429, 1, '2006-01-06 12:34:51'),
+(43, 468120, 526729, 0, '2012-04-22 08:53:17'),
+(44, 372890, 669520, 1, '2009-11-14 17:14:20'),
+(45, 521643, 827514, 0, '2021-06-26 15:30:33'),
+(46, 893257, 423017, 1, '2016-08-21 11:28:49'),
+(47, 419786, 573810, 0, '2013-09-03 10:35:51'),
+(48, 652043, 980145, 1, '2012-01-27 07:17:34'),
+(49, 307651, 861742, 1, '2004-06-11 14:09:03'),
+(50, 952610, 107493, 0, '2020-05-04 19:42:28');
+
 
 INSERT INTO Groups (GroupID, GroupName, CreatedBy, DateAdded) 
 VALUES 
@@ -81,6 +133,32 @@ VALUES
 (23, 'imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed', 1137146490, '1980-04-06 23:53:04'),
 (24, 'congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna', 698705035, '2002-07-06 09:53:41'),
 (25, 'nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis', 8841291, '1986-09-03 04:28:12');
+(26, 'viverra eget congue eget semper rutrum nulla nunc purus phasellus in', 50975234, '1997-02-15 18:22:31'),
+(27, 'ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien', 1075436219, '2016-11-28 11:15:52'),
+(28, 'accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque', 49873154, '1993-03-12 12:49:33'),
+(29, 'sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec', 847126539, '2017-08-23 04:14:27'),
+(30, 'volutpat dui maecenas tristique est et tempus semper est quam', 1147236659, '2004-01-16 09:17:05'),
+(31, 'sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt', 163594542, '2019-10-10 15:33:58'),
+(32, 'donec dapibus duis at velit eu est congue elementum in', 1385028719, '2001-05-30 03:21:44'),
+(33, 'accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi', 264958074, '2013-11-21 06:43:21'),
+(34, 'suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae', 615197808, '1996-06-18 11:56:32'),
+(35, 'et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis', 174205409, '2021-03-14 22:05:15'),
+(36, 'nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat', 954685013, '2005-02-09 04:42:17'),
+(37, 'dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius', 737657194, '1983-09-27 18:31:09'),
+(38, 'mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus', 94806245, '1998-05-08 19:04:36'),
+(39, 'augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa', 679829753, '1974-06-12 08:09:02'),
+(40, 'vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id', 809470546, '1982-01-11 12:24:19'),
+(41, 'praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo', 65023457, '2018-05-01 14:17:11'),
+(42, 'velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium', 504312180, '2007-07-13 16:29:57'),
+(43, 'mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed', 329415364, '1999-11-22 03:15:47'),
+(44, 'accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum', 104826598, '2000-08-04 01:58:49'),
+(45, 'sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam', 126472153, '2012-12-18 08:23:41'),
+(46, 'in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis', 744058681, '2015-07-20 05:47:18'),
+(47, 'lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa', 982614913, '1994-03-31 17:21:50'),
+(48, 'amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo', 528482590, '2008-06-05 09:02:12'),
+(49, 'aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras', 331156742, '2010-01-14 19:23:29'),
+(50, 'tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi', 405362391, '2023-10-15 02:11:57');
+
 
 INSERT INTO Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted)
 VALUES 
@@ -109,6 +187,32 @@ VALUES
 (789059797, 'rutrum at lorem integer tincidunt ante vel ipsum praesent blandit', 471715575, true, false, 1549774379, '1984-06-02 14:51:59'),
 (277596108, 'felis eu sapien cursus vestibulum proin eu mi nulla ac', 1367401327, true, true, 1575897625, '1990-08-20 16:53:32'),
 (563958864, 'morbi ut odio cras mi pede malesuada in imperdiet et', 566889102, false, true, 291470917, '1993-07-10 18:15:37');
+(2008751463, 'integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel', 594073712, true, true, 93823742, '1975-05-28 09:21:32'),
+(1604824967, 'duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis', 2028047691, false, false, 1302158476, '1998-10-17 14:47:03'),
+(1023638002, 'enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at', 473294618, true, true, 282843066, '2016-06-14 05:10:42'),
+(391629471, 'sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in', 1672517105, true, false, 357214100, '1972-12-02 08:04:11'),
+(1299567523, 'morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante', 1435832144, false, false, 1917935109, '1992-09-15 19:24:58'),
+(1949375288, 'vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in', 719875702, true, false, 905376732, '1974-04-05 01:46:15'),
+(582874482, 'eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim', 1145079833, false, true, 2105418716, '1990-02-20 22:59:47'),
+(1625790924, 'elementum ligula vehicula consequat morbi a ipsum integer a nibh in', 1551219427, true, true, 713185641, '2000-05-14 12:26:09'),
+(1781525146, 'dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum', 1315984242, true, false, 1614327885, '1988-01-03 06:47:53'),
+(1345850036, 'nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti', 312859814, false, false, 1987122456, '2005-10-11 16:43:36'),
+(1076384545, 'tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis', 1754285420, true, true, 1509380168, '2017-11-17 10:56:45'),
+(1988495965, 'sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium', 1069583922, false, true, 1193069489, '1987-03-28 23:08:20'),
+(1012978457, 'nibh fusce lacus purus aliquet at feugiat non pretium quis lectus', 979597188, true, false, 1470510391, '1979-01-19 04:19:34'),
+(1590101179, 'non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla', 1690532100, false, false, 673412125, '1984-10-04 09:30:44'),
+(1449596796, 'amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus', 1645286205, true, true, 1184089141, '2008-03-26 13:13:15'),
+(1620587589, 'lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit', 1559294527, true, false, 402019652, '2002-02-10 00:17:27'),
+(753475169, 'aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo', 1179924765, true, true, 2052142792, '1981-08-17 10:08:33'),
+(1049041508, 'suspendisse potenti nullam porttitor lacus at turpis donec posuere metus', 1334761936, false, true, 2121761424, '1995-11-09 02:58:10'),
+(1874392217, 'consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent', 1825291809, true, true, 1574639881, '1970-11-07 11:24:20'),
+(697603134, 'porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non', 1004859175, true, false, 320471816, '1985-12-14 15:53:17'),
+(1105956259, 'sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec', 1474086109, false, false, 134987021, '1979-09-12 23:42:31'),
+(1828476606, 'ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam', 842469727, true, true, 2140631245, '2004-06-19 06:01:28'),
+(152492384, 'interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu', 1489729536, true, false, 1906714809, '2018-08-11 17:15:56'),
+(828062907, 'donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante', 687530925, false, false, 1792790348, '1994-07-07 00:01:41'),
+(871139428, 'lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in', 1034871413, false, true, 1408521521, '2015-02-24 03:32:59');
+
 
 INSERT INTO GroupMembershipRequests (GroupMembershipRequestsID, GroupID, GroupMemberUserID, IsGroupMembershipAccepted, DateAccepted) 
 VALUES 
@@ -137,3 +241,29 @@ VALUES
     (23, 572728695, 824088084, FALSE, '2013-10-22 00:00:46'),
     (24, 1342469771, 1644755660, FALSE, '1981-07-15 20:06:19'),
     (25, 751289340, 748515199, FALSE, '1983-09-24 23:21:50');
+    (26, 1124875593, 1958367689, TRUE, '2001-02-13 04:15:32'),
+    (27, 1418202434, 1207374589, FALSE, '1986-11-20 17:03:11'),
+    (28, 137421011, 892332048, FALSE, '2018-09-28 02:27:42'),
+    (29, 1497853968, 938537106, TRUE, '2003-12-07 21:11:58'),
+    (30, 208967184, 470310785, TRUE, '1999-05-22 06:57:24'),
+    (31, 1176073298, 1723968364, FALSE, '2019-11-05 09:29:33'),
+    (32, 136781341, 724206732, TRUE, '1994-03-15 05:22:17'),
+    (33, 1234567814, 1960834298, TRUE, '1980-01-25 12:09:01'),
+    (34, 195728400, 1502081636, FALSE, '1996-10-16 23:50:28'),
+    (35, 2075948258, 409761091, TRUE, '2020-06-30 14:55:37'),
+    (36, 1029776217, 679602839, FALSE, '1975-04-02 15:19:12'),
+    (37, 1763857648, 1989120477, FALSE, '2011-11-13 21:47:50'),
+    (38, 164839457, 1314046900, TRUE, '1988-08-04 04:32:29'),
+    (39, 847092145, 1417550323, TRUE, '1978-06-21 03:13:38'),
+    (40, 1557882929, 1075368891, TRUE, '2010-10-26 00:31:46'),
+    (41, 1354276618, 295874012, FALSE, '1990-09-19 09:08:56'),
+    (42, 1014768352, 1552619904, TRUE, '2009-04-28 18:27:21'),
+    (43, 2136709478, 2012451198, FALSE, '1989-05-08 07:13:18'),
+    (44, 181176992, 611843847, TRUE, '2013-03-21 16:47:06'),
+    (45, 1351740486, 671533972, FALSE, '2018-07-16 12:59:39'),
+    (46, 1534766021, 1305744484, FALSE, '1987-11-11 06:25:13'),
+    (47, 1637568127, 116913693, TRUE, '1971-02-28 22:39:10'),
+    (48, 1846763172, 850228459, TRUE, '2015-05-10 04:43:35'),
+    (49, 733093259, 1095536012, FALSE, '1997-12-05 08:36:18'),
+    (50, 1422964675, 1032028417, TRUE, '1984-11-19 21:20:40');
+``
