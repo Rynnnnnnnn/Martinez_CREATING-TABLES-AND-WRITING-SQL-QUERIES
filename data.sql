@@ -162,10 +162,10 @@ VALUES
 
 INSERT INTO Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted)
 VALUES 
-(1930174836, 'aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor', 539498240, true, true, 1098048182, '2017-03-18 14:51:28'),
+(1930174836, 'aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor', 4, true, true, 1098048182, '2017-03-18 14:51:28'),
 (342432178, 'aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas', 1132098968, true, false, 397984248, '1983-02-21 18:36:47'),
 (1807277770, 'lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat', 596713738, false, false, 1393160173, '1972-08-14 11:29:45'),
-(1841803794, 'nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in', 1656682767, true, false, 930428429, '1973-01-13 13:07:25'),
+(1841803794, 'nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in', 4, true, false, 930428429, '1973-01-13 13:07:25'),
 (1080155032, 'libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in', 592054155, true, false, 266103415, '1989-06-13 11:26:59'),
 (1312320433, 'integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at', 793600305, false, false, 132422131, '2014-04-23 11:07:35'),
 (1836856590, 'sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare', 312391719, false, false, 1770459637, '2010-12-20 02:20:58'),
@@ -188,30 +188,6 @@ VALUES
 (277596108, 'felis eu sapien cursus vestibulum proin eu mi nulla ac', 1367401327, true, true, 1575897625, '1990-08-20 16:53:32'),
 (563958864, 'morbi ut odio cras mi pede malesuada in imperdiet et', 566889102, false, true, 291470917, '1993-07-10 18:15:37');
 (2008751463, 'integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel', 594073712, true, true, 93823742, '1975-05-28 09:21:32'),
-(1604824967, 'duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis', 2028047691, false, false, 1302158476, '1998-10-17 14:47:03'),
-(1023638002, 'enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at', 473294618, true, true, 282843066, '2016-06-14 05:10:42'),
-(391629471, 'sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in', 1672517105, true, false, 357214100, '1972-12-02 08:04:11'),
-(1299567523, 'morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante', 1435832144, false, false, 1917935109, '1992-09-15 19:24:58'),
-(1949375288, 'vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in', 719875702, true, false, 905376732, '1974-04-05 01:46:15'),
-(582874482, 'eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim', 1145079833, false, true, 2105418716, '1990-02-20 22:59:47'),
-(1625790924, 'elementum ligula vehicula consequat morbi a ipsum integer a nibh in', 1551219427, true, true, 713185641, '2000-05-14 12:26:09'),
-(1781525146, 'dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum', 1315984242, true, false, 1614327885, '1988-01-03 06:47:53'),
-(1345850036, 'nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti', 312859814, false, false, 1987122456, '2005-10-11 16:43:36'),
-(1076384545, 'tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis', 1754285420, true, true, 1509380168, '2017-11-17 10:56:45'),
-(1988495965, 'sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium', 1069583922, false, true, 1193069489, '1987-03-28 23:08:20'),
-(1012978457, 'nibh fusce lacus purus aliquet at feugiat non pretium quis lectus', 979597188, true, false, 1470510391, '1979-01-19 04:19:34'),
-(1590101179, 'non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla', 1690532100, false, false, 673412125, '1984-10-04 09:30:44'),
-(1449596796, 'amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus', 1645286205, true, true, 1184089141, '2008-03-26 13:13:15'),
-(1620587589, 'lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit', 1559294527, true, false, 402019652, '2002-02-10 00:17:27'),
-(753475169, 'aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo', 1179924765, true, true, 2052142792, '1981-08-17 10:08:33'),
-(1049041508, 'suspendisse potenti nullam porttitor lacus at turpis donec posuere metus', 1334761936, false, true, 2121761424, '1995-11-09 02:58:10'),
-(1874392217, 'consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent', 1825291809, true, true, 1574639881, '1970-11-07 11:24:20'),
-(697603134, 'porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non', 1004859175, true, false, 320471816, '1985-12-14 15:53:17'),
-(1105956259, 'sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec', 1474086109, false, false, 134987021, '1979-09-12 23:42:31'),
-(1828476606, 'ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam', 842469727, true, true, 2140631245, '2004-06-19 06:01:28'),
-(152492384, 'interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu', 1489729536, true, false, 1906714809, '2018-08-11 17:15:56'),
-(828062907, 'donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante', 687530925, false, false, 1792790348, '1994-07-07 00:01:41'),
-(871139428, 'lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in', 1034871413, false, true, 1408521521, '2015-02-24 03:32:59');
 
 
 INSERT INTO GroupMembershipRequests (GroupMembershipRequestsID, GroupID, GroupMemberUserID, IsGroupMembershipAccepted, DateAccepted) 
